@@ -1,0 +1,83 @@
+.intro-banner {
+  position: relative;
+}
+
+.intro-banner__description-wrapper {
+  padding-top: 22px;
+  padding-bottom: 13px;
+}
+
+.intro-banner__description {
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  font-family: 'PTSans';
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.intro-banner__description-title {
+  font-family: 'PTSansBold';
+  font-size: 18px;
+  padding-left: 35px;
+  padding-right: 35px;
+  line-height: 26px;
+}
+
+.intro-banner__triangle-bg {
+  width: 100%;
+  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-position: -225px 0px;
+  height: 300px;
+  padding-top: 89px;
+}
+
+@media @tablet-widths {
+
+.intro-banner {
+  width: 100%;
+  padding-bottom: 22px;
+}
+
+.intro-banner__triangle-bg img {
+  width: 100%;
+  height: 350px;
+}
+
+.intro-banner__triangle-bg {
+  padding-top: 75px;
+  width: 768px;
+  height: 445px;
+  background-image: url(../img/bg-back-mobile@1x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro-banner__description-title {
+  padding-top: 5px;
+  font-size: 22px;
+  padding-left: 87px;
+  padding-right: 80px;
+}
+
+}
+
+@media @desktop-widths {
+  .intro-banner__triangle-bg {
+    width: 1200px;
+    height: 445px;
+    background-size: cover;
+    background-position: 0 0;
+  }
+
+  .intro-banner__description-title {
+    padding-left: 370px;
+    padding-right: 370px;
+  }
+
+  .reasons__question-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+}

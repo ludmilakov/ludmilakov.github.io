@@ -1,0 +1,96 @@
+.comment {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comment__title {
+  font-family: 'PTSansBold';
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.comment__title--emotions {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 20px;
+}
+
+.comment__header {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.comment__explain {
+  line-height: 24px;
+}
+
+@media @tablet-widths {
+
+  .comment__title {
+    font-size: 30px;
+    margin-bottom: 35px;
+  }
+
+  .comment__title--emotions {
+    font-size: 22px;
+    margin-top: 32px;
+    margin-bottom: 60px;
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 126px;
+      height: 1px;
+      background-color: #eeeeee;
+      position: absolute;
+      left: 0px;
+      top: 9px;
+    }
+
+    &::before{
+      content: "";
+      width: 124px;
+      height: 1px;
+      background-color: #eeeeee;
+      position: absolute;
+      right: 0px;
+      top: 9px;
+    }
+  }
+
+  .comment__explain {
+    padding-left: 165px;
+    padding-right: 165px;
+  }
+
+  .comment__header {
+    border: none;
+    margin-bottom: 40px;
+  }
+
+}
+
+@media @desktop-widths {
+
+  .comment__header {
+    width: 1200px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .comment__title {
+    font-size: 32px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .comment__explain {
+    width: 1200px;
+    padding-left: 380px;
+    padding-right: 380px;
+  }
+
+}

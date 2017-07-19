@@ -1,0 +1,40 @@
+.page‐header {
+  width: 320px;
+  position: relative;
+}
+
+.page‐header__logo {
+  position: absolute;
+  z-index: 5;
+  left: 110px;
+}
+
+@media @tablet-widths {
+
+  .page‐header {
+    width: 768px;
+    min-height: 55px;
+  }
+
+  .page‐header__logo img {
+    width: 102px;
+    height: 83px;
+  }
+
+  .page‐header__logo {
+    left: 334px;
+  }
+
+}
+
+@media @desktop-widths {
+
+  .page‐header {
+    width: 1200px;
+  }
+
+  .page‐header__logo {
+    left: 550px;
+  }
+
+}

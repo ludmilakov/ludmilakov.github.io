@@ -1,0 +1,141 @@
+.page-footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  width: 320px;
+  padding-bottom: 20px;
+}
+
+.page-footer__hashtag {
+  width: 320px;
+  font-size: 20px;
+  font-family: 'PTSansBold';
+  margin-bottom: 40px;
+}
+
+.page-footer__social‐links {
+  width: 320px;
+  display: flex;
+  justify-content: center;
+}
+
+.page-footer__social‐link {
+  width: 48px;
+  height: 48px;
+  background-color: @blue;
+  margin-right: 5px;
+  font-size: 0;
+  margin-bottom: 22px;
+}
+
+.page-footer__social‐link‐‐tw {
+  background-image: url(../img/icon-twitter.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-footer__social‐link‐‐fb {
+  background-image: url(../img/icon-facebook.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.page-footer__social‐link‐‐youtube {
+  background-image: url(../img/icon-youtube.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.copyright-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 320px;
+  justify-content: center;
+  height: 40px;
+  line-height: 40px;
+
+}
+
+.page‐footer__copyright {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 40px;
+  line-height: 40px;
+}
+
+.HTMLAcademy-logo {
+  width: 29px;
+  height: 35px;
+  margin-left: 15px;
+}
+
+@media @tablet-widths {
+  .page-footer {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 45px;
+    width: 648px;
+    margin-top: 32px;
+    flex-wrap: nowrap;
+  }
+
+  .page-footer__hashtag {
+    line-height: 42px;
+    width: 196-4px;
+    text-align: left;
+    padding-left: 4px;
+  }
+
+  .page-footer__social‐links {
+    width: 256px;
+    padding-left: 20px;
+    justify-content: center;
+
+  }
+
+  .copyright-wrapper {
+    width: 196px;
+  }
+
+  .page‐footer__copyright {
+    min-height: 60px;
+    line-height: 32px;
+    padding-left: 73px;
+    width: 196px;
+    margin-top: 0;
+    padding-top: 6px;
+    justify-content: flex-start;
+}
+
+}
+
+@media @desktop-widths {
+
+  .page-footer {
+    margin-top: 29px;
+    width: 1200px;
+    padding: 0;
+  }
+
+  .page-footer__hashtag {
+    width: 400px;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .page-footer__social‐links {
+    width: 400px;
+    justify-content: center;
+  }
+
+  .copyright-wrapper {
+    width: 400px;
+    justify-content: flex-end;
+  }
+
+  .page‐footer__copyright {
+    width: 400-230px;
+    padding-left: 230px;
+}
+
+}
