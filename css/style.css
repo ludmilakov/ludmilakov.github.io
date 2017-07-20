@@ -1299,7 +1299,6 @@ textarea[placeholder] {
     padding-right: 0;
   }
   .forms__item:nth-child(2) .forms__item-title--contacts {
-    background-color: yellow;
     width: 400px;
     margin-left: 0;
     margin-right: 0;
@@ -1333,6 +1332,9 @@ textarea[placeholder] {
   .forms__item-emotions {
     width: 100%;
     margin-bottom: 50px;
+  }
+  .forms__item-textarea {
+    width: 100%;
   }
 }
 .photo {
